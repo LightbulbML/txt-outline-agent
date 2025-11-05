@@ -5,8 +5,12 @@ import os
 import sys
 import anthropic
 from docx import Document
+from dotenv import load_dotenv
 
 from prompts import SYSTEM_PROMPT
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 def read_outline():

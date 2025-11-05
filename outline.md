@@ -106,3 +106,59 @@
       - Function: These structures can function as one or more RF-to-DC converters (e.g., wherein the one or more non-linear structures define a class F converter in cooperation with one or more inductive and/or parasitic structures of the impedance sheets, such as structures defined in and/or between the RF elements).
       - Example: the non-linear structures can include one or more diodes, transistors, and/or any other suitable structures.
       - The non-linear structures preferably enable the wireless power receiver to deliver DC output power (e.g., to one or more connected electrical loads, such as a load of and/or attached to a device with which the wireless power receiver is integrated, such as to an aerial vehicle to which the wireless power receiver is attached).
+  - However, the wireless power receiver can additionally or alternatively include any other suitable elements in any suitable arrangement.
+
+### 3. Method.
+
+- As described above, the method of operation for a wireless power system preferably includes receiving power wirelessly and/or delivering power to one or more electrical loads, and can optionally include deploying the system, stowing the system, and/or configuring the system in any other suitable manner.
+
+#### 3.1 Receiving power wirelessly.
+
+- Receiving power wirelessly is preferably performed while the system is deployed (e.g., with the substrate(s) and/or impedance sheets in a substantially flat or planar configuration and/or in a substantially maximum area configuration, with the substrate frame in a substantially convex configuration, etc.).
+- The power is preferably received via one or more propagating RF modes (but can additionally or alternatively be received via one or more evanescent RF modes and/or from any other suitable sources).
+- Example: the power can be received from one or more transmitters configured to transmit power wirelessly (e.g., to the receiver) at the design wavelength (e.g., wherein receiving power wirelessly is preferably performed in response to the power being transmitted to the receiver).
+- In some examples, receiving power wirelessly can be performed such as described in U.S. Patent Application 18,674,945, filed 27-MAY-2024 and titled "SYSTEM AND METHOD FOR WIRELESS POWER RECEPTION" and/or in U.S. Patent Application 18/891,137, filed 20-SEP-2024 and titled "METHOD AND SYSTEM FOR WIRELESS POWER DELIVERY", each of which is herein incorporated in its entirety by this reference.
+- However, the method can additionally or alternatively include receiving power wirelessly in any other suitable manner.
+
+#### 3.2 Delivering power to one or more electrical loads.
+
+- Delivering power to one or more electrical loads is preferably performed concurrently (or substantially concurrently) with receiving power wirelessly, more preferably wherein the power that is received wirelessly (or a significant fraction thereof, such as the majority thereof) is delivered to the one or more electrical loads.
+- The power is preferably rectified (e.g., before or after being delivered, more preferably before); for example, the power can be received as RF power and can be rectified (e.g., at the system, such as within one or more of the impedance sheets) and then delivered to the one or more electrical loads as DC power (e.g., as described in U.S. Patent Application 18,674,945, filed 27-MAY-2024 and titled "SYSTEM AND METHOD FOR WIRELESS POWER RECEPTION", which is herein incorporated in its entirety by this reference).
+- The one or more electrical loads are preferably associated with (e.g., part of, integrated with, attached to, etc.) a vehicle (e.g., aerial vehicle, such as a quadcopter or other rotary wing vehicle) with which the system is integrated.
+- Example: delivering power can include delivering the electrical power that was received wirelessly to an electrical system of an aerial vehicle with which the system is integrated (e.g., to a battery thereof).
+- However, the method can additionally or alternatively include delivering power in any other suitable manner.
+
+#### 3.3 Deploying the system.
+
+- The method can optionally include deploying the system, such as by controlling the system (e.g., the substrate thereof) to switch to a deployed configuration.
+- In examples, deploying the system can be performed in response to determining that a battery charge state is below a threshold value and/or will be reduced below a threshold value in less than a threshold amount of time, in response to determining that current and/or anticipated flight commands can be satisfied while the system is in the deployed configuration (e.g., determining that the deleterious effects of having the system in the deployed configuration, such as increased aerodynamic drag and/or interference with airflow from rotors, will not prevent satisfactory operation according to current and/or anticipated flight plans), in response to determining that a wireless power transmitter is available and/or within range (e.g., able to transmit power efficiently to the system), in response to receipt of a command to deploy and/or receive power (e.g., received from a controller, such as from a wireless power transmitter), and/or with any other suitable timing.
+- However, the method can additionally or alternatively include deploying the system in any other suitable manner and/or with any other suitable timing.
+
+#### 3.4 Stowing the system.
+
+- The method can optionally include stowing the system, such as by controlling the system (e.g., the substrate thereof) to switch to a stowed configuration.
+- In examples, stowing the system can be performed in response to determining that a battery charge state is above a threshold value, in response to determining that a wireless power reception event has ended (e.g., the system is no longer receiving power wirelessly, the amount of power being received wirelessly is less than a threshold amount, etc.), in response to determining that current and/or anticipated flight commands can not be satisfied or have a significant risk of not being able to be satisfied while the system is in the deployed configuration (e.g., determining that the deleterious effects of having the system in the deployed configuration, such as increased aerodynamic drag and/or interference with airflow from rotors, may prevent satisfactory operation according to current and/or anticipated flight plans), in response to determining that no wireless power transmitter is available and/or within range (e.g., able to transmit power efficiently to the system), in response to receipt of a command to stow and/or cease receiving power (e.g., received from a controller, such as from a wireless power transmitter), and/or with any other suitable timing.
+- However, the method can additionally or alternatively include stowing the system in any other suitable manner and/or with any other suitable timing.
+
+#### 3.5 Additional method elements.
+
+- Further, the method can additionally or alternatively include any other suitable elements performed in any suitable manner.
+
+### 4. Additional notes.
+
+- Although omitted for conciseness, the preferred embodiments include every combination and permutation of the various system components and the various method processes.
+- Furthermore, various processes of the preferred method can be embodied and/or implemented at least in part as a machine configured to receive a computer-readable medium storing computer-readable instructions.
+- The instructions are preferably executed by computer-executable components preferably integrated with the system.
+- The computer-readable medium can be stored on any suitable computer readable media such as RAMs, ROMs, flash memory, EEPROMs, optical devices (CD or DVD), hard drives, floppy drives, or any suitable device.
+- The computer-executable component is preferably a general or application specific processing subsystem, but any suitable dedicated hardware device or hardware/firmware combination device can additionally or alternatively execute the instructions.
+- The FIGURES illustrate the architecture, functionality and operation of possible implementations of systems, methods and computer program products according to preferred embodiments, example configurations, and variations thereof.
+- In this regard, each block in the flowchart or block diagrams may represent a module, segment, step, or portion of code, which comprises one or more executable instructions for implementing the specified logical function(s).
+- It should also be noted that, in some alternative implementations, the functions noted in the block can occur out of the order noted in the FIGURES.
+- Example: two blocks shown in succession may, in fact, be executed substantially concurrently, or the blocks may sometimes be executed in the reverse order, depending upon the functionality involved.
+- It will also be noted that each block of the block diagrams and/or flowchart illustration, and combinations of blocks in the block diagrams and/or flowchart illustration, can be implemented by special purpose hardware-based systems that perform the specified functions or acts, or combinations of special purpose hardware and computer instructions.
+- As a person skilled in the art will recognize from the previous detailed description and from the figures and claims, modifications and changes can be made to the preferred embodiments of the invention without departing from the scope of this invention defined in the following claims.
+
+## CLAIMS
+
+- We claim:
+- 1. The invention as shown and/or described.
